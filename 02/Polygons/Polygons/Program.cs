@@ -15,7 +15,9 @@ namespace Polygons
 
             var octagon = new Octagon(5);
             DisplayPolygon("Octagon", octagon);
-        }
+
+            Console.Read();
+    }
 
         public static void DisplayPolygon(string polygonType, dynamic polygon)
         {
